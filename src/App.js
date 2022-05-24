@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import Question from "./Pages/Questions/Questions";
+import Result from "./Pages/Result/Result";
+import {Container} from "@mui/material";
+import Header from "./Components/Header/Header";
+import {Box} from "@mui/material";
+import Footer from "./Components/Footer/Footer";
+import 'animate.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Box pt={3} className='content-App'>
+      <Router>
+
+          <Container>
+              <Header />
+              <Routes>
+                  <Route path='/' exact element={<Home/>}/>
+                  <Route path='/question' exact element={<Question/>}/>
+                  <Route path='/result' exact element={<Result/>}/>
+              </Routes>
+              <Footer />
+          </Container>
+      </Router>
+  </Box>
   );
 }
 

@@ -1,0 +1,12 @@
+.swiper-button-next,.swiper-button-prev{
+    background: rgba(21,61,138,.1);
+    padding: 3px;
+    top: 88%;
+    /* bottom: 4px; */
+    width: 70px;
+    height: 70px;
+    color: white;
+}
+.swiper-button-next:hover,.swiper-button-prev:hover{
+    background: #cc0b10;
+}

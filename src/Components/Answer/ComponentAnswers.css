@@ -1,0 +1,30 @@
+
+.falseAnswers{
+    background: red!important;
+}
+.trueAnswers{
+    background: green!important;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.style-p{
+
+    width: 40%;
+    text-align: center;
+    background: #464646;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    border-left:5px solid red;
+    box-shadow: 4px 3px 6px 2px #b1acac;
+    cursor: pointer;
+}
+
+.style-p:hover{
+    background: orange;
+}

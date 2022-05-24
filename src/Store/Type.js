@@ -1,0 +1,10 @@
+
+
+
+export  const CHANGE_CATEGORY='CHANGE_CATEGORY'
+export  const CHANGE_DIFFICULTY='CHANGE_DIFFICULTY'
+export  const CHANGE_Type='CHANGE_Type'
+export  const CHANGE_NAME='CHANGE_NAME'
+export const CHANGE_AMOUNT='CHANGE_AMOUNT'
+export const UPDATE_SCORE='UPDATE_SCORE'
+export const TIMER_QUIZ='TIMER_QUIZ'
