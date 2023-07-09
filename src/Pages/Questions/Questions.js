@@ -19,11 +19,12 @@ const Question = () => {
 
     const history = useNavigate()
     const {amount, category, difficulty, type,timerCount} = useSelector(state => state)
-    const {response, loading} = useAxios(
-        `https://opentdb.com/api.php?amount=${amount}&category=${category}&difficulty=${difficulty}&type=${type}`)
+    const {response, loading} = useAxios(`https://opentdb.com/api.php?amount=${amount}&category=${category}&difficulty=${difficulty}&type=${type}`)
     const [current, setCurrent] = useState(0);
     const [checker, setChecker] = useState('')
-
+    const goToHome=()=>{
+        history('/')
+    }
     if (loading) {
         return (
             <CircularProgress/>
@@ -36,13 +37,18 @@ const Question = () => {
         setCurrent(current + 1)
         setChecker('')
     }
-if (timerCount===0){
-    history('/result')
+    if (timerCount === 0) {
+      return   history('/result')
 }
+    if (response.length===0){
+       return  <ComponentButton textButton='go to Home'  variant='contained' color='error' handleClick={goToHome}/>
+    }
+
+    console.log(response)
     return (
         <Box>
             <TestCircular />
-            {/*<CountDown />*/}
+
                    <InformationPlayer current={current} />
                    <QuestionsQuiz  current={current} response={response} />
                     <ComponentAnswers current={current} response={response}  setChecker={setChecker} checker={checker} correct={response[current]?.correct_answer}  />

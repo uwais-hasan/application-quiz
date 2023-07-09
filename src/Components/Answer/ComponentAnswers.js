@@ -14,7 +14,7 @@ const ComponentAnswers=({current,checker,setChecker,correct,response})=>{
 
 
 
-console.log(options)
+
     const checkerAnswers=(item)=>{
         setChecker(item)
      item===correct&&dispatch(updateScore(1))

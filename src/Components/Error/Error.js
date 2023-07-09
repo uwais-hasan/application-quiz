@@ -1,9 +1,9 @@
-import {Box} from "@mui/material";
+import {Box, Typography} from "@mui/material";
 import './Error.css'
-const Error=()=>{
+const Error=({details})=>{
     return(
         <Box>
-            <p className='error'>error we are sorry</p>
+            <Typography mt={2} className='error'>{details}</Typography>
         </Box>
     )
 }

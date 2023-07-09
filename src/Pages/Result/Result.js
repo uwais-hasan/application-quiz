@@ -53,7 +53,7 @@ const Result=()=>{
                  <p>Amount:<span> {amount}</span></p>
                  <p>Difficulty:<span> {difficulty}</span></p>
 
-                 <ComponentButton textButton='go to Home'  variant='contained' color='error' handleClick={goToHome}>asdsadas</ComponentButton>
+                 <ComponentButton textButton='go to Home'  variant='contained' color='error' handleClick={goToHome}/>
              </div>
          </Container>
         </div>

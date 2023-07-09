@@ -14,11 +14,12 @@ const Text_filed=({label,type})=>{
                 break;
             case 'Amount':
                 dispatch(changeAmount(e.target.value))
+
         }
     }
     return(
         <Box mt={2}>
-            <TextField value={value} fullWidth label={label} variant='outlined' onChange={handleChange} type={type} />
+            <TextField  value={value} fullWidth label={label} variant='outlined' onChange={handleChange} type={type} />
         </Box>
     )
 }

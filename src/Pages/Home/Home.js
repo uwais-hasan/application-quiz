@@ -18,13 +18,20 @@ const Home=()=>{
     const history=useNavigate();
     const {amount, category, difficulty, name, type} = useSelector(state => state);
     const[error,setError]=useState(false);
+const[detailsError,setDetailsError]=useState('')
 
     const handleClick=()=>{
-        console.log('handle click from home')
-        if (amount&&category&&difficulty&&name&&type){
+        if (!amount&&!category&&!difficulty&&!name&&!type){
+            setError(true)
+            setDetailsError('please fill all field')
+        }else if (amount>10){
+            setError(true)
+            setDetailsError('max question is 10')
+        }
+        else if (amount&&category&&difficulty&&name&&type){
             return  history('/question')
         }
-       return setError(true)
+
     }
     return(
      <Box pt={3}  className='content-Home'>
@@ -39,9 +46,9 @@ const Home=()=>{
                      <Select_Input label='Category' option={optionCategories}/>
                      <Select_Input label='Difficulty' option={optionDifficulty}/>
                      <Select_Input label='Type' option={optionType}/>
-                     <Text_filed label='Amount' type='number'/>
+                     <Text_filed label='Amount' type='number' />
                      <ComponentButton textButton='go to Quiz' handleClick={handleClick}  variant='contained' color='success'/>
-                     {error&&<Error/>}
+                     {error&&<Error details={detailsError}/>}
                  </form>
              </div>
          </Box>

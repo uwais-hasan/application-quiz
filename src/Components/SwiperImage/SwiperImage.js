@@ -11,7 +11,7 @@ import 'swiper/components/pagination/pagination.min.css'
 const SwiperImage=()=>{
 
     SwiperCore.use([Navigation,Pagination,Autoplay,EffectCoverflow])
-    const img=['/Img/learn-1.png','/Img/learn-2.png','/Img/learn-3.png','/Img/learn-4.png','/Img/learn-5.png',
+    const img=['/Img/learn-1.png','/Img/learn-4.png','/Img/learn-5.png',
         '/Img/learn-6.png','/Img/learn-7.png','/Img/learn-8.png','/Img/learn-9.png','/Img/learn-10.png']
     const auto={
         delay:3000,
