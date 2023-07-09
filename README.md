@@ -1,6 +1,6 @@
 # Demo
 
-(http://applicatuin-quiz-owies.surge.sh)
+(https://application-quiz.vercel.app/))
 
 
 
