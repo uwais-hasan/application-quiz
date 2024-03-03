@@ -38,6 +38,6 @@ export const optionDifficulty=[
 ]
 export  const optionType=[
     {id:'Multiple',name:'multiple'},
-    {id:'Boolean',name:'True/False'},
+
 
 ]
