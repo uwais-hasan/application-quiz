@@ -21,7 +21,7 @@ const Home=()=>{
 const[detailsError,setDetailsError]=useState('')
 
     const handleClick=()=>{
-        if (!amount&&!category&&!difficulty&&!name&&!type){
+        if (!amount||!category||!difficulty||!name||!type){
             setError(true)
             setDetailsError('please fill all field')
         }else if (amount>10){
