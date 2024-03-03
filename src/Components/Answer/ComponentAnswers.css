@@ -20,7 +20,7 @@
     padding: 20px;
     color: white;
     border-radius: 10px;
-    border-left:5px solid red;
+    border-left:5px solid #232323;
     box-shadow: 4px 3px 6px 2px #b1acac;
     cursor: pointer;
 }

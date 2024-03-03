@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62793871-2c0e-4d2f-945b-c6b1ad642f5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/OIP.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CNAME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Img/learn-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.245fdddd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.245fdddd.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.1f0a6788.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.1f0a6788.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.1f0a6788.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Answer/ComponentAnswers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Answer/ComponentAnswers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Error/Error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Error/Error.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Error/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Error/Error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Input/Text_filed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Input/Text_filed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SwiperImage/SwiperImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperImage/SwiperImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/Axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/Axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Questions/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Questions/Questions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Result/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Result/Result.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,23 +22,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="29cLh6AAXy5BIjXdHVgE6a9IcKS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quiz-redux" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.eslint" value="" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Project/React-Project-App/quiz",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\React-Project-App\quiz\public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +58,8 @@
       <updated>1653407543192</updated>
       <workItem from="1653407544509" duration="2577000" />
       <workItem from="1653427892408" duration="8000" />
-      <workItem from="1688895207595" duration="5225000" />
+      <workItem from="1688895207595" duration="5538000" />
+      <workItem from="1709473147223" duration="103000" />
     </task>
     <servers />
   </component>
